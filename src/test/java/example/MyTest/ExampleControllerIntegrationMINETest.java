@@ -1,10 +1,10 @@
-package example;
+package example.MyTest;
 
 import example.Controller.ExampleController;
 import example.person.Person;
 import example.person.PersonRepository;
-import example.weather.WeatherResponse;
 import example.weather.WeatherClient;
+import example.weather.WeatherResponse;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +22,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(controllers = ExampleController.class)
-public class ExampleControllerIntegrationTest {
+public class ExampleControllerIntegrationMINETest {
 
     @Autowired
     private MockMvc mockMvc;

@@ -1,9 +1,9 @@
-package example;
+package example.Controller;
 
 import example.person.Person;
 import example.person.PersonRepository;
-import example.weather.WeatherResponse;
 import example.weather.WeatherClient;
+import example.weather.WeatherResponse;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;

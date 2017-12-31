@@ -1,4 +1,4 @@
-package example;
+package example.Controller;
 
 import example.person.Person;
 import example.person.PersonRepository;
